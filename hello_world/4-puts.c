@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - 
-  * funcio
-  *:/
+  * int main 
+  * 
+  */
 int main(void)
 {
 
