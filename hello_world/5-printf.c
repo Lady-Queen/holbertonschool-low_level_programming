@@ -1,8 +1,14 @@
+/*
+ * Author: Lady-Queen
+ * File: 5-printf.c
+ */
+
 #include <stdio.h>
 
-/** main - printf:("with proper grammar, 
- *but the outcome is a piece of art,
- *Return: 0;
+/** 
+ * main - printf:("with proper grammar, 
+ * but the outcome is a piece of art,
+ * Return: 0;
  */
 
 int main(void)
