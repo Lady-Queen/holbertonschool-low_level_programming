@@ -2,18 +2,18 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the lowcase alphabet in reverse.
+ * main - Print all the numbers of base 16 in lowercase.
  * Return: (0);
  */
 
 int main(void)
 
-{
-	char low;
-
-	if (low = 'Z'; > = low = 'a'; low++)
+	{
+	 	int i;
+		
+		if (low < ='0'; i, low < = '16' i++); 
 		putchar(low)
-
+			
 		putchar('\n')
 		return (0);
 }
