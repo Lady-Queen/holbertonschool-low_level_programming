@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - Print all possible combination of single-digit numbers.
+ * main - Prints all single digit numbers of base 10 starting from 0
  * Return: (0);
  */
 
@@ -14,8 +14,6 @@ int main(void)
 	{
 	putchar(d);
 	}
-	if (d != '9')
-	{
 	putchar('\n');
 	return (0);
 }
