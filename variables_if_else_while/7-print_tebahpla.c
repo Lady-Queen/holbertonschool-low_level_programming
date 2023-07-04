@@ -1,17 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - Print the alphabeth in reverse-
+ * main - Print the alphabeth in reverse
+ *
  * Return: (0);
  */
 
 int main(void)
 {
-	int i = 122;
-	while (i > = '97')
+	char i;
+
+	for (i = 'z'; i >= 'a'; i--)
 	{
 		putchar(i);
-		i--;
 	}
 	putchar('\n');
 	return (0);
