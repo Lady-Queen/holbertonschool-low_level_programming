@@ -2,18 +2,24 @@
 #include <stdlib.h>
 
 /**
- * main - Print all the numbers of base 16 in lowercase.
+ * main - Hexadecimal numbers base 16.
+ *
  * Return: (0);
  */
 
 int main(void)
+{
+	int n;
+	int d;
 
+	for (n = 48; n <= 57; n++)
 	{
-	 	int i;
-		
-		if (low < ='0'; i, low < = '16' i++); 
-		putchar(low)
-			
-		putchar('\n')
-		return (0);
+		putchar(n);
+	}
+	for (d = 97; d <= 102; d++)
+	{
+		putchar(d);
+	}
+	putchar('\n');
+	return (0);
 }
