@@ -2,7 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - Print all possible combination of single-digit numbers.
+ * main - Print numbers in ascending order.
+ *
  * Return: (0);
  */
 
@@ -10,12 +11,16 @@ int main(void)
 {
 	int d;
 
-	for (d = '0'; d <= '9'; d++)
+	for (d = 48; d <= 57; d++)
 	{
-	putchar(d);
+		putchar(d);
+	if (d == 57)
+	{
+		continue;
 	}
-	if (d != '9')
-	{
+		putchar (44);
+		putchar (32);
+	}
 	putchar('\n');
 	return (0);
 }
